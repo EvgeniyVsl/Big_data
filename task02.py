@@ -11,7 +11,13 @@ from collections.abc import Sequence
 
 def check_fibonacci(data: Sequence[int]) -> bool:
     
-    if len(data) < 2:
+    if len(data) == 0:
+        return False
+
+    if data[0] != 0:
+        return False
+
+    if len(data) < 2: 
         return False
 
     for i in range(2, len(data)):
@@ -21,6 +27,7 @@ def check_fibonacci(data: Sequence[int]) -> bool:
     return True
 
 print(check_fibonacci([0, 1, 1, 2, 3, 5, 8, 13]))  # True
+print(check_fibonacci([1, 1, 2, 3, 5, 8, 13, 21]))  # False
 print(check_fibonacci([0, 1, 1, 2, 3, 5, 8, 14]))  # False
 print(check_fibonacci([0])) # False
 print(check_fibonacci([])) # False
