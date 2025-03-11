@@ -1,52 +1,52 @@
 [
   {
-    "code": "MMM",
-    "name": "3M",
-    "growth": "90.53%"
-  },
-  {
     "code": "AMCR",
     "name": "Amcor",
-    "growth": "9.46%"
+    "growth": "9.94%"
   },
   {
     "code": "AIG",
     "name": "American International Group",
-    "growth": "8.63%"
+    "growth": "9.56%"
   },
   {
-    "code": "ADSK",
-    "name": "Autodesk",
-    "growth": "6.43%"
+    "code": "MMM",
+    "name": "3M",
+    "growth": "86.07%"
   },
   {
     "code": "T",
     "name": "AT&T",
-    "growth": "52.39%"
+    "growth": "57.67%"
   },
   {
     "code": "AAPL",
     "name": "Apple",
-    "growth": "39.39%"
-  },
-  {
-    "code": "AJG",
-    "name": "Arthur J. Gallagher",
-    "growth": "37.07%"
-  },
-  {
-    "code": "AEE",
-    "name": "Ameren",
-    "growth": "35.02%"
+    "growth": "40.03%"
   },
   {
     "code": "MO",
     "name": "Altria",
-    "growth": "34.98%"
+    "growth": "38.02%"
   },
   {
-    "code": "GOOG",
-    "name": "Alphabet C",
-    "growth": "32.01%"
+    "code": "AEE",
+    "name": "Ameren",
+    "growth": "35.04%"
+  },
+  {
+    "code": "AFL",
+    "name": "Aflac",
+    "growth": "32.03%"
+  },
+  {
+    "code": "APD",
+    "name": "Air Products and Chemicals",
+    "growth": "30.96%"
+  },
+  {
+    "code": "ADSK",
+    "name": "Autodesk",
+    "growth": "3.13%"
   }
 ]

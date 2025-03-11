@@ -1,52 +1,52 @@
 [
   {
-    "code": "AKAM",
-    "name": "Akamai",
-    "potential profit": 6.49
-  },
-  {
     "code": "AES",
     "name": "AES",
-    "potential profit": 5.66
+    "potential profit": 55.44
   },
   {
-    "code": "AWK",
-    "name": "American Water Works",
-    "potential profit": 5.31
+    "code": "AMD",
+    "name": "AMD",
+    "potential profit": 53.93
   },
   {
-    "code": "APH",
-    "name": "Amphenol",
-    "potential profit": 5.18
-  },
-  {
-    "code": "AJG",
-    "name": "Arthur J. Gallagher",
-    "potential profit": 5.12
+    "code": "ALGN",
+    "name": "Align Technology",
+    "potential profit": 52.44
   },
   {
     "code": "ALB",
     "name": "Albemarle",
-    "potential profit": 4.81
-  },
-  {
-    "code": "AMZN",
-    "name": "Amazon",
-    "potential profit": 4.8
-  },
-  {
-    "code": "ADM",
-    "name": "Archer Daniels Midland",
-    "potential profit": 4.71
-  },
-  {
-    "code": "MMM",
-    "name": "3M",
-    "potential profit": 4.35
+    "potential profit": 51.36
   },
   {
     "code": "APA",
     "name": "APA Corporation Registered Shs",
-    "potential profit": 4.35
+    "potential profit": 50.96
+  },
+  {
+    "code": "MMM",
+    "name": "3M",
+    "potential profit": 49.94
+  },
+  {
+    "code": "T",
+    "name": "AT&T",
+    "potential profit": 42.97
+  },
+  {
+    "code": "AMAT",
+    "name": "Applied Materials",
+    "potential profit": 42.44
+  },
+  {
+    "code": "ADSK",
+    "name": "Autodesk",
+    "potential profit": 42.2
+  },
+  {
+    "code": "AMZN",
+    "name": "Amazon",
+    "potential profit": 37.5
   }
 ]
