@@ -1,0 +1,33 @@
+# Руководство по запуску 
+
+1. Запуск контейнера:
+```
+docker-compose up -d
+```
+
+2. Создание файлов датасета
+```
+python generate_data.py
+```
+
+3. Копирование CSV файлов в docker контейнер
+```
+docker cp users.csv <container_id>:/tmp/
+docker cp logs.csv <container_id>:/tmp/
+```
+
+4. Подключаемся к postgre: 
+```
+docker exec -it <container_id> psql -U admin -d forum_logs
+```
+
+5. Импортируем файлы в БД:
+```
+COPY users FROM '/tmp/users.csv' WITH (FORMAT csv, HEADER true);
+COPY logs FROM '/tmp/logs.csv' WITH (FORMAT csv, HEADER true, NULL '');
+```
+
+6. Запускаем агрегатор, на выходе получаем файл logs.csv
+```
+python aggregate.py "2023-01-01" "2023-01-31"
+```
